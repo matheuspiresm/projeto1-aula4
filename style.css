@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+
+
+.social_media{
+    height: 40px;
+    background-color: #241207;
+}
+
+.menu {
+    text-align: center;
+    border-bottom: 1px solid #241207;
+}
+
+
+.menu li {
+    text-align: center;
+    display: inline-block;
+    margin-right: 120px;
+    width: 70px;
+    padding: 15px;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #241207;
+    font-weight: bold; 
+    font-size: 16px;
+}
+
+.menu li a:hover {
+    color: #a17c63;
+    transition: background-color 0.3s ease;
+}
+
+.cardapio {
+    height: 400px;
+    overflow: hidden;
+    background-color: #cfcfcf;
+}
+
+.cardapio__itens {
+    float: left;
+    margin: 50px 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: transform 0.5s ease ;
+}
+
+.cardapio__itens:hover{
+    transform: scale(1.05);
+    border: 1px solid #241207;
+    
+}
+
+.cardapio__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
+#sobre{
+    height: 400px;
+    background-color: #b6b6b6;;
+
+}
+
+.sobre__text{
+    font-size: 16px;
+    letter-spacing: 2px;
+    width: 70%;
+    text-align: justify;
+}
+
+p{
+    padding: 10px;
+}
+
+#owl{
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+    right: 80px;
+    top: 600px;
+}
+
+
+#newsletter{
+    background-color: #878787;
+    text-align: center;
+
+}
+
+form{
+    padding: 70px;
+    margin: 0 auto;
+}
+
+.form__field{
+    margin: 10px;
+}
+
+label{
+    display: block;
+    font-size: 20px;
+}
+
+input,
+textarea{
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+textarea{
+    height: 150px;
+}
+
+::placeholder{
+    padding: 5px;
+}
+
+footer{
+    height: 40px;
+    background-color: #241207;
+}
